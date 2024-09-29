@@ -14,15 +14,18 @@ To run the QFOX code, ensure you have the following libraries installed:
 ``` bash
 pip install gymnasium
 pip install mealpy
-
+```
 ## Usage
-```bash
 1. Clone the repository:
+```bash
 git clone https://github.com/yourusername/QFOX.git
 cd QFOX
-2. Run the main code:
-python main.py
+```
 
+2. Run the main code:
+```bash
+python main.py
+```
 
 ## Example Usage
 ```bash
@@ -42,4 +45,4 @@ qlAgent = QLCartpoleAgent(env=env,
                            episodes=episodes,
                            optimizer=FOX.OriginalFOX)
 qlAgent.train()
-
+```
