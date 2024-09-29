@@ -11,18 +11,21 @@ QFOX is a hybrid reinforcement learning method that integrates the FOX Optimizer
 ## Installation
 
 To run the QFOX code, ensure you have the following libraries installed:
+``` bash
 pip install gymnasium
 pip install mealpy
 
 ## Usage
+```bash
 1. Clone the repository:
 git clone https://github.com/yourusername/QFOX.git
 cd QFOX
-2.Run the main code:
+2. Run the main code:
 python main.py
 
 
 ## Example Usage
+```bash
 import gymnasium as gym
 from rl.qlearning_cartpole import QLCartpoleAgent
 from mealpy import FOX 
