@@ -11,8 +11,6 @@ QFOX is a hybrid reinforcement learning method that integrates the FOX Optimizer
 ## Installation
 
 To run the QFOX code, ensure you have the following libraries installed:
-
-```bash
 pip install gymnasium
 pip install mealpy
 
@@ -24,22 +22,16 @@ cd QFOX
 python main.py
 
 
-## Code Structure
-#main.py: The main script to execute the QFOX training process.
-#ql/q_learning_cartpole.py: Contains the implementation of the QLCartpoleAgent class.
-#ql/QLAgent.py: Contains the base class QLAgent with common Q-learning functionalities.
-
-Example Code
+## Example Usage
 import gymnasium as gym
 from rl.qlearning_cartpole import QLCartpoleAgent
 from mealpy import FOX 
 
-# Global Parameters
 window_size = 100
 episodes = 500 + window_size
+
 env = gym.make("CartPole-v1")
 
-# Initialize and train the agent
 qlAgent = QLCartpoleAgent(env=env, 
                            learning_rate=0.1, 
                            discount_factor=0.99, 
