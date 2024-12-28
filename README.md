@@ -1,6 +1,6 @@
 # QFOX
 
-QFOX is a hybrid reinforcement learning method that integrates the FOX Optimizer algorithm with Q-learning to enhance learning efficiency and performance in the CartPole environment. This repository contains the implementation of the QFOX method, enabling users to experiment with adaptive hyperparameter tuning in reinforcement learning tasks.
+QFOX is a hybrid reinforcement learning method that integrates the FOX optimization algorithm with Q-learning to enhance learning performance in the CartPole environment. This repository contains the implementation of the QFOX method, enabling users to experiment with adaptive hyperparameter tuning in reinforcement learning tasks.
 
 ## Features
 
