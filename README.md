@@ -50,9 +50,9 @@ qlAgent.train()
 ## Cite us:
 [1] Jumaah, Mahmood A., Yossra H. Ali, and Tarik A. Rashid. "Efficient Q-learning Hyperparameter Tuning Using FOX Optimization Algorithm." Results in Engineering (2025): 104341.
 
-[2] Jumaah, Mahmood A.; Ali, Yossra H.; Rashid, Tarik A.; and Vimal, S. (2024) "FOXANN: A Method for Boosting Neural Network Performance," Journal of Soft Computing and Computer Applications: Vol. 1: Iss. 1, Article 1001. DOI: https://doi.org/10.70403/3008-1084.1001
+[2] Jumaah, Mahmood A.; Ali, Yossra H.; Rashid, Tarik A.; and Vimal, S. (2024) "FOXANN: A Method for Boosting Neural Network Performance," Journal of Soft Computing and Computer Applications: Vol. 1: Iss. 1, Article 1001.
 
-[2]  Jumaah, M.A., Ali, Y.H. and Rashid, T.A., 2024. QF-tuner: Breaking Tradition in Reinforcement Learning. arXiv preprint arXiv:2402.16562.
+[3]  Jumaah, M.A., Ali, Y.H. and Rashid, T.A., 2024. QF-tuner: Breaking Tradition in Reinforcement Learning. arXiv preprint arXiv:2402.16562.
 
 ```
 @article{Jumaah2025_QFOX,
